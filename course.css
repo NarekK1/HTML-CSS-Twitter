@@ -1,0 +1,112 @@
+body{
+    font-size: 15px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900px;
+    /* background-image: url(img/CV.jpg);
+    background-size: 1920px;
+    background-repeat: no-repeat; */
+}
+.info-text p{
+    font-style:italic;
+    font-weight: bold;
+    
+}
+
+.color-job{
+    color: red;
+    
+}
+.hobbies-style{
+    border: 20px solid #E4E8FF;
+    border-radius: 20px;
+    background-color:#E4E8FF;
+}
+.job-experience{
+    border:20px solid #DBC9FF;
+    border-radius: 20px;
+    background-color:#DBC9FF;
+}
+.contact{
+    border: 20px solid #FEE3EC;
+    border-radius: 20px;
+    background-color: #FEE3EC;
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding: 50px;
+}
+.img{
+    width:150px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rbga(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+a{
+    color: #333;
+}
+a:hover {
+    color: blue;
+    
+}
+a:visited{
+    color:#CB6AA8;
+}
+a:active{
+    color:blue
+}
+.btn{
+    background-color: royalblue;
+    color:white;
+    border-radius: 28px;
+    padding: 8px;
+    cursor: pointer; 
+    font-family: inherit;
+}
+.btn:hover{
+    background-color:#CB6AA8;
+}
+/* .color-job td:nth-child(2){
+    color: white;
+} */
+.form h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+}
+.message {
+    width:250px;
+    height: 120px;
+}
+.form-group input, .form-group textarea {
+    width: 50%;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0 10px;
+    outline: none;
+    font-family: inherit;
+    border-radius: 28px black;
+}
+.info{
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+@media (max-width: 650px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+    .btn{
+    border-radius: 8px;
+    }
+   
+}
+.info p{
+   margin-left: 8px;
+}
+.info h1{
+    margin-left: 8px;
+ }

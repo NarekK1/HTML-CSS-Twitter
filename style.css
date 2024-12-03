@@ -1,0 +1,72 @@
+.logo{
+    width: 400px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 400px;
+   
+}
+body{
+    background: black;
+  
+   
+}
+.registration{
+   border-radius: 28px;
+   background-color: white;
+   height: 40px;
+   
+}
+.registration a{
+    text-decoration: none;
+    color: gray;
+ 
+    
+}
+.btn{
+    margin-left: 1000px;
+    
+    background-color: #1D9BF0;
+    color:white;
+    border-radius: 28px;
+    height: 40px;
+    cursor: pointer;
+    width: 300px;
+    font-size: 17px;
+    
+}
+.google{
+    width: 18px;
+    height: 18px;
+    /* margin-right: 8px; */
+    min-width: 18px;
+    text-align: center;
+}
+
+
+.login-box button{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 28px;
+    background: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+.login-box hr{
+    border: 0;
+    height: 1px;
+    background: #c2c2c2;
+    margin: 5px;
+}
+.login-box span{
+    display: block;
+    width: 40px;
+    margin: auto;
+    background: #fff;
+    font-size: 14px;
+    margin-top: -16px;
+}
